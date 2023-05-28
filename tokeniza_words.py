@@ -76,11 +76,11 @@ def get_felling(text:str) -> int:
         tokens.pop(index)
 
     if qtd_good == qtd_bad:
-        return 0  
+        return "neutro"
     elif qtd_good > qtd_bad:
-        return 1
+        return "bom"
     elif qtd_bad > qtd_good:
-        return -1
+        return "ruim"
 
 def get_fellings(text:list) -> list:
     return [(txt, get_felling(txt)) for txt in text if txt[len("https")] != "https"]
