@@ -25,5 +25,5 @@ source .venv/bin/activate
 pip install -r requeriments.txt
 ```
 ```sh
-Agora seja feliz e rode o script "main_selenium.py"
+rode o script "main_selenium.py"
 ```
