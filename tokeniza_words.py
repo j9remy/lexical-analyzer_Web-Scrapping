@@ -18,16 +18,20 @@ STOP_WORDS = ["de","a","o","que","e","do","da","em","um","para","com","nao","uma
               "tenha","tenhamos","tenham","tivesse","tivessemos","tivessem","tiver","tivermos","tiverem","terei","tera","teremos"
               "terao","teria","teriamos","teriam","pq"]
 
-GOOD_WORDS = ["faustao","promissor","impressionante","exponencial","destacado","florescente","prospero","lucrativo","significativo","notavel","ascensao",
+GOOD_WORDS = ["saudável","nutritiva","versátil","sustentável","benéfica","rica","valorizada","vantajosa","eficiente","inovadora","resistente",
+              "vigorosa","produtiva","rentável","estimulante","influente","confortante","satisfatória" ,"promissor","impressionante","exponencial",
+              "destacado","florescente","prospero","lucrativo","significativo","notavel","ascensao","destacada","crescimento","impulsionamento"
               "surpreendente","encorajador","empolgante","brilhante","solido","favoravel","promovendo","crescimento","estavel","relevante",
               "positivo","alta","oferta","crescente","aumento","forte","fortes","melhor","melhores","qualificado","qualificados","qualificada",
               "qualificadas"]
 
-
-BAD_WORDS = ["volatil","instavel","declinante","desfavoravel","declinio","prejudicial","problematico","arriscado","desafiador","especulativo",
-             "manipulado","controverso","desvalorizado","inconstante","sobrecarregado","descontrolado","fragilizado","desaquecido","desorganizado",
+BAD_WORDS = ["desvalorizada","contaminada","inadequada","problemática","prejudicial","insegura","arriscada","ineficiente","fragilizada","perigosa",
+             "polêmica","deficiente","desfavorável","estagnada","deteriorada","desvalorizada","depreciada","reduzida","prejudicada","controversa",
+             "desestimulante","ineficaz","desvalorização","fraudulenta","falha","danosa","deterioração","desorganização","limitada","problemática",
+             "baixa","volatil","instavel","declinante","desfavoravel","declinio","prejudicial","problematico","arriscado","desafiador",
+             "especulativo", "manipulado","controverso","desvalorizado","inconstante","sobrecarregado","descontrolado","fragilizado","desaquecido","desorganizado",
              "vulneravel","conflituoso","erro","queda","reducao","reducoes","recuam","pior","piorar","falta","faltava","negativa","negativar",
-             "negativo","cancer","prejudica","prejudicar","prejudicou"]
+             "negativo","cancer","prejudica","prejudicar","prejudicou","prejudicada"]
 
 INTENSE_WORDS = ["muito", "bastante", "absoluto", "absolutamente", "extremamente", "profundo", "profundamente", "esmagadoramente", "esmagador",
                  "deslumbrante", "formidavel","tao"]
