@@ -14,7 +14,7 @@ class MysqlConnection:
         self.PASSWD= passwd
         self.HOST= host
         self.PORT= port
-        self.SQLALCHEMY_DATABASE_URL = f"mysql+pymysql://{self.USER}:{self.PASSWD}@{self.HOST}:{self.PORT}/twitter"
+        self.SQLALCHEMY_DATABASE_URL = f"mysql+pymysql://{self.USER}:{self.PASSWD}@{self.HOST}:{self.PORT}/semeadurasoja"
 
     def connect(self) -> None:
         info(f'Connecting to {self.HOST}...')

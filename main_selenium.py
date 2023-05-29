@@ -4,6 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
+import requests
 from dotenv import load_dotenv
 from os import getenv
 import json
@@ -72,3 +73,8 @@ driver.close()
 
 with open('scrapper_soybean_twitter.json', 'w', encoding='UTF-8') as fp:
     json.dump(info, fp, indent=4)
+    
+headers = {'Content-type': 'application/json'}
+
+requests.put('https://e3w3e8wui0.execute-api.us-east-1.amazonaws.com/dev/0211033-raw-sprint-3/scrapper_soybean_twitter.json',
+             data=open('scrapper_soybean_twitter.json', 'rb'), headers=headers) 
