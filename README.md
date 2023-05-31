@@ -27,3 +27,7 @@ pip install -r requeriments.txt
 ```sh
 rode o script "main_selenium.py"
 ```
+```sh
+O arquivo main_selenium.py faz o trabalho da coleta de informações do twitter e gera um json ("scrapper_soybean_twitter")
+Com isso usamos o arquivo treat_json.ipynb para realizar o tratamento do texto extraído
+Com os dados tratados, usamos o treat_json para inserir os dados no banco Azure
